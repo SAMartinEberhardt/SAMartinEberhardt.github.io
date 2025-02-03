@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+  
+    
+  
+
+  <title>Patterns and Scaling | Sylvie Martin-Eberhardt</title>
+
+  
+  <meta name="author" content="Sylvie Martin-Eberhardt">
+  
+  <meta name="description" content="Statistical patterns and Scaling in Ecology">
+  <meta name="keywords" content="plant-insect interactions, evolutionary ecology, carnivorous plants, anthocyanins, plant defense">
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Patterns and Scaling"/>
+<meta name="twitter:description" content="Statistical patterns and Scaling in Ecology"/>
+
+  <meta property="og:title" content="Patterns and Scaling" />
+<meta property="og:description" content="Statistical patterns and Scaling in Ecology" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://SAMartinEberhardt.github.io/research/research2/" />
+
+
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css" crossorigin="anonymous">
+  
+  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+    type="text/css">
+
+  
+  
+  <link rel="stylesheet" href="/sass/main.css">
+
+  
+  <link rel="stylesheet" href="/zoomjs/zoom.min.css">
+
+  
+
+  <script src="/js/lazysizes.min.js"></script>
+
+  
+  
+
+  <link rel="alternate" type="application/rss+xml" href="/research/research2/index.xml" title="Sylvie Martin-Eberhardt" />
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  
+</head>
+
+
+
+<body ontouchstart="">
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top ">
+  <div class="container-fluid">
+    
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://SAMartinEberhardt.github.io/">Sylvie Martin-Eberhardt</a>
+    </div>
+    
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          
+          <li><a href="/" title="Home">Home</a></li>
+          
+          <li><a href="/research/" title="Research">Research</a></li>
+          
+          <li><a href="/teaching/" title="Teaching">Teaching</a></li>
+          
+          <li><a href="/mentorship/" title="Mentorship">Mentorship</a></li>
+          
+          <li><a href="/outreach/" title="Outreach">Outreach</a></li>
+          
+          <li><a href="/publications/" title="Publications">Publications</a></li>
+          
+          <li><a href="/contact/" title="Contact">Contact</a></li>
+          
+
+          <li class="search-icon">
+            <a href="javascript:void(0)">
+              <i class="fa fa-search"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+  
+</nav>
+<script>
+  
+  
+  
+  var $body = document.body;
+  var $toggle = document.querySelector(".navbar-toggle");
+  var $navbar = document.querySelector("#huxblog_navbar");
+  var $collapse = document.querySelector(".navbar-collapse");
+
+  var __HuxNav__ = {
+    close: function () {
+      $navbar.className = " ";
+      
+      setTimeout(function () {
+        
+        if ($navbar.className.indexOf("in") < 0) {
+          $collapse.style.height = "0px";
+        }
+      }, 400);
+    },
+    open: function () {
+      $collapse.style.height = "auto";
+      $navbar.className += " in";
+    },
+  };
+
+  
+  $toggle.addEventListener("click", function (e) {
+    if ($navbar.className.indexOf("in") > 0) {
+      __HuxNav__.close();
+    } else {
+      __HuxNav__.open();
+    }
+  });
+
+  
+
+  document.addEventListener("click", function (e) {
+    if (e.target == $toggle) return;
+    if (e.target.className == "icon-bar") return;
+    __HuxNav__.close();
+  });
+</script>
+  
+<div class="search-page">
+  <div class="search-icon-close-container">
+    <span class="search-icon-close">
+      <i class="fa fa-chevron-down"></i>
+    </span>
+  </div>
+  <div class="search-main container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <form></form>
+        <input type="text" id="search-input" placeholder="$ grep...">
+        </form>
+        <div id="search-results" class="mini-post-list"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+  
+
+
+
+<header class="intro-header" style="background-image: url('/research/research2/research2.jpg')">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        
+        <div class="site-heading">
+        
+          <h1>Patterns and Scaling</h1>
+          
+          
+          <span class="subheading">Statistical patterns and Scaling in Ecology</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  
+
+<div class="container">
+  <figure style="float:right; margin:5px; width:500px;text-align:center;">
+<div style="float:right;">
+<img src="/images/research2_body1.jpg" alt="" style="margin:1px" width="500px"/>
+  <figcaption style="margin:1px;">
+     The intraspecific variation in wing lengths of 10,551 species (birds, moths, butterflies, and cicadas) collapse onto the same universal function under rescaling.
+  </figcaption>
+  </div>
+</figure>
+<figure style="float:right; margin:5px; width:720px;text-align:center;">
+<div style="display: flex; justify-content: space-between; margin-top: 10px;float:right;">
+    <div style="width:320px;">
+      <img src="/images/research2_body3.jpg" alt="" style="margin:1px; width:320px;"/>
+      <figcaption style="margin:1px;">
+        In a meta-analysis, I found that plant tolerance to herbivory is highly non-linear, where higher damage levels are more damaging to plant fitness.
+      </figcaption>
+    </div>
+     <div style="width:400px;">
+      <img src="/images/research2_body2.jpg" alt="" style="margin:1px; width:400px;"/>
+      <figcaption style="margin:1px;">
+        Among plant herbivory within a population in the HerbVar data set. Many plants get very little or no herbivory. Deviations from neutral predictions are explained by plant phylogeny.
+      </figcaption>
+    </div>
+  </div>
+</figure>
+<p>A running theme of my research is exploring biological questions from a top-down statistical perspective. This approach is motivated by the recognition that nature&rsquo;s complexity often exceeds our ability to fully understand and measure it at scale. To uncover general principles or extrapolate insights to ecologically relevant spatiotemporal scales, it is often necessary to take a step back and examine system-level descriptors from which simple rules may emerge. In practice, this involves investigating stochastic processes and statistical patterns of observables, while formulating biological hypotheses based on purely statistical mechanisms. These mechanisms and patterns are of particular interest because they are pervasive in nature, often unintuitive, and are behind of some of ecology&rsquo;s most successful theories (e.g., natural selection, portfolio effect). Most importantly, they offer a pathway to general ecological rules, which remain rare and elusive.</p>
+<p>I work on a variety of topics that generally revolve around plants and insects using this approach. For instance, I developed a model of herbivory from first principles based on neutral stochastic sampling of herbivores from a regional pool. Comparison of the model to an extensive global data set of herbivory from the <a href="https://herbvar.org/"><span style="color: blue">HerbVar Network</span></a> revealed that neutral stochastic processes dominate natural variation in herbivory, but deviations from neutral patterns are detectable and predictable (<a href="https://doi.org/10.1098/rspb.2023.2687">Pan &amp; Wetzel 2024</a>). That high levels of variation in herbivory exist among leaves and among plants have long been observed. It is important for plant fitness because plant tolerance to herbivory tends to be highly nonlinear, so variable herbivory reduces average plant fitness more than expected.</p>
+<p>More recent work involves using methods borrowed from statistical physics and economics to model temporal fluctuations and distribution of traits. I am also exploring the potential to model the diversity and occupancy patterns in phytochemistry by modeling the observation process and underlying stochastic gene expression.</p>
+
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.css" integrity="sha384-bYdxxUwYipFNohQlHt0bjN/LCpueqWz13HufFEV1SUatKs1cm4L6fFgCi1jT643X" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.js" integrity="sha384-Qsn9KnoKISj6dI8g7p1HBlNpVx0I8p1SvlwOldgi3IorMle61nQy4zEahWYtljaz" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+
+
+  
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        
+        
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+<ul class="list-inline text-center">
+
+  
+  
+  
+  <li>
+    <a target="_blank" href="https://scholar.google.com/citations?user=K5Yii5cAAAAJ%26hl">
+      <span class="fa-stack fa-lg">
+        <i class="ai ai-google-scholar-square ai-2x"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="https://orcid.org/0009-0000-0977-5281">
+      <span class="fa-stack fa-lg">
+        <i class="ai ai-orcid-square ai-2x"></i>
+      </span>
+    </a>
+  </li>
+  
+ 
+  <li>
+    <a target="_blank" href="https://drive.google.com/uc?export=download&amp;id=1eAsgVZSsVmcbw9-rCMnlGxd1GwMtWhwx">
+      <span class="fa-stack fa-lg">
+        <i class="ai ai-cv-square ai-2x"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="mailto:martineb@msu.edu">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-square fa-stack-2x"></i>
+        <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+</ul>
+        <p class="copyright text-muted">
+          Copyright &copy; Sylvie Martin-Eberhardt 2025
+          <br>
+          Powered by <a href="https://gohugo.io">Hugo</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+
+
+<script src="/js/hux-blog.min.c4ea77041cd3edbfc8b2622cd887a9a5d8760a4162d14489e36d2a3fa4c90172.js"></script>
+
+
+<script src="/js/simple-jekyll-search.min.js"></script>
+
+
+<script src="/js/search.min.53bce5da475b4d362500e5ce5dddfa22e20e1b9018777411d2020b4b839c9310.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/zoomjs/zoom.min.js"></script>
+</body>
+
+</html>
